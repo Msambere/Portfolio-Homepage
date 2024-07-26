@@ -5,11 +5,22 @@ function AboutMeSection() {
         <h1>About Me</h1>
       </div>
       <div className="content">
-        <p>A blurb about myself with some professional summary points</p>
+        <p>
+          Creative web developer and data analyst. Experienced with website creation and maintenance
+          with a current focus on front-end responsibilities. Skilled at guiding data-driven
+          decision-making via collecting, transforming, organizing, and analyzing key relevant data.
+          Experienced with many coding languages and data analysis platforms including Javascript,
+          HTML, CSS, SQL, spreadsheets, Tableau, R, and Python. Outstanding relationship-building,
+          communication, and problem-solving skills. Experienced with cross-cultural professional
+          relationships and proficient in Korean.
+        </p>
         <ul>
-          <li>stuff</li>
-          <li>other stuff</li>
-          <li>good point</li>
+          <li>3 time Fulbright grant recipient</li>
+          <li>
+            Awarded Native Speaking English Teacher of the Year by Seoul Metropolitan Office of
+            Education
+          </li>
+          <li>Member of the SANS Cyber Immersion Academy Summer 2024 cohort</li>
         </ul>
       </div>
     </div>

@@ -3,7 +3,16 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--main-bgc);
+
+  --main-bgc: #f6f4efff;
+  --l-tan: #ebdac4ff;
+  --m-tan: #e6d0b2ff;
+  --d-tan: #e4c8a2ff;
+  --l-green: #cae4daff;
+  --m-green: #b0cdc2ff;
+  --d-green: #8eb8a8ff;
+  --l-rose: #edd6d6ff;
+  --m-rose: #e8c4c4ff;
+  --d-rose: #dba6a6ff;
 }

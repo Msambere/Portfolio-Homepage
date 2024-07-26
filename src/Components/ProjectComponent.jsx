@@ -1,10 +1,10 @@
 function ProjectComponent({ project }) {
   return (
     <div className="project-card" key={project.id}>
-      <h3 className="project-title">{project.name}</h3>
       <img className="project-image" src={project.img} alt={project.alt} />
+      <h3 className="project-title">{project.name}</h3>
       <div className="project-details">
-        <p>Description:</p>
+        <p>Description: </p>
         <p>{project.description}</p>
         <p>Environment: </p>
         <p>{project.tools}</p>
