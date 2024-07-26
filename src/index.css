@@ -4,6 +4,9 @@
   font-weight: 400;
 
   background-color: var(--main-bgc);
+  background-image: url('src/assets/Colorful-Pastel-Modern-Banner.png');
+  background-repeat: no-repeat;
+  background-position: top left;
 
   --main-bgc: #f6f4efff;
   --l-tan: #ebdac4ff;
