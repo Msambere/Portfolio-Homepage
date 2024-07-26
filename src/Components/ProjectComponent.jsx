@@ -10,8 +10,12 @@ function ProjectComponent({ project }) {
         <p>{project.tools}</p>
       </div>
       <div className="project-buttons">
-        <button className="project-live-button">live</button>
-        <button className="project-github-button">GitHub</button>
+        <a href={project.live} target="_blank">
+          <button className="project-live-button">live</button>
+        </a>
+        <a href={project.github} target="_blank">
+          <button className="project-github-button">GitHub</button>
+        </a>
       </div>
     </div>
   );

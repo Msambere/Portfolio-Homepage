@@ -2,11 +2,59 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #selfie {
   height: 250px;
+}
+
+.carousel-items-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.carousel-item img {
+  width: 50%;
+  height: auto;
+}
+
+.about-me-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.all-projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-card {
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 90%;
+  margin-bottom: 2vh;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-image {
+  width: 90%;
+  height: auto;
+}
+.project-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 @media (max-width: 600px) {
@@ -20,12 +68,7 @@
     width: 50%;
     height: auto;
   }
-  .carousel-items-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-  }
+
   .carousel-item {
     width: fit-content;
   }
