@@ -2,6 +2,10 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
   background-color: var(--main-bgc);
   background-image: url('src/assets/Colorful-Pastel-Modern-Banner.png');
@@ -18,4 +22,16 @@
   --l-rose: #edd6d6ff;
   --m-rose: #e8c4c4ff;
   --d-rose: #dba6a6ff;
+}
+
+.app-container {
+  margin: 0px;
+}
+
+@media (max-width: 600px) {
+  :root {
+    background-image: url('src/assets/cropped-banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }

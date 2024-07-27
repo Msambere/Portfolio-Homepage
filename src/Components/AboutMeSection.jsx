@@ -1,19 +1,24 @@
 function AboutMeSection() {
   return (
     <div className="section about-me-section">
-      <div className="section-title">
+      <div className="section-label">
         <h1>About Me</h1>
       </div>
       <div className="content">
         <p>
-          Creative web developer and data analyst. Experienced with website creation and maintenance
-          with a current focus on front-end responsibilities. Skilled at guiding data-driven
-          decision-making via collecting, transforming, organizing, and analyzing key relevant data.
-          Experienced with many coding languages and data analysis platforms including Javascript,
-          HTML, CSS, SQL, spreadsheets, Tableau, R, and Python. Outstanding relationship-building,
-          communication, and problem-solving skills. Experienced with cross-cultural professional
-          relationships and proficient in Korean.
+          Hello! I am Amber Edwards, a software engineer experienced with website creation and
+          maintenance. I am passionate about using software to improve the lives of the global
+          community, especially our most vulnerable members. With a keen mind for using logical and
+          code to solve a variety of problems, I code solutions that provide a breadth
+          functionality.
         </p>
+        <p>
+          As a former ESL educator turned tech junkie, my journey began with a desire to make
+          programs that helped teachers make engaging class materials quickly and easily. Over the
+          years, I have explored several fields in the tech industry, including web development,
+          data analytics, and cybersecurity.
+        </p>
+        <p>When I'm not at my desk, you can find me on my yoga mat or hiking a park trail.</p>
         <ul>
           <li>3 time Fulbright grant recipient</li>
           <li>

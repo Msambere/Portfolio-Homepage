@@ -1,7 +1,9 @@
 function ContactSection() {
   return (
     <div className="section contact-section">
-      <h2>Contact Me</h2>
+      <div className="section-label">
+        <h2>Contact Me</h2>
+      </div>
       <div className="content">
         <p>
           I am always open to new connections and projects. Please get in touch, if you are

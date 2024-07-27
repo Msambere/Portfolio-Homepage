@@ -6,7 +6,7 @@ function HeaderSection() {
       <img src="src/assets/selfie.jpg" alt="selfie" id="selfie" />
       <h1>Amber Edwards</h1>
       <div className="tagline">
-        <p>Web Developer | Cybersecurity Analyst | Data Analyst | Educator</p>
+        <h4>Web Developer | Cybersecurity Analyst | Data Analyst | Educator</h4>
       </div>
     </header>
   );

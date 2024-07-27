@@ -7,7 +7,7 @@ const ProjectList = [
     subtitle: 'To-do list tracker',
     img: 'src/assets/CheckIt.png',
     alt: 'Check It screenshot',
-    description: 'Create, edit, sort, filter your to-dos',
+    description: 'A intuitive web app to create, manage, and prioritize all of your tasks',
     tools: ['Html/CSS/Javascript'],
     live: 'https://msambere.github.io/To-Do-List-App/',
     github: 'https://github.com/Msambere/To-Do-List-App'

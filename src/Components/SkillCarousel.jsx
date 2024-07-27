@@ -2,7 +2,7 @@ import { IconList } from '../IconList';
 
 function SkillCarousel() {
   return (
-    <div className="carousel">
+    <div className=" section carousel">
       {/* <button id="carousel-button-prev" aria-label="Previous">
         <img src="src/assets/previous-icon.png" alt="previous" />
       </button> */}
