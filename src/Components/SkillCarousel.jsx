@@ -4,7 +4,7 @@ function SkillCarousel() {
   return (
     <div className=" section carousel">
       {/* <button id="carousel-button-prev" aria-label="Previous">
-        <img src="src/assets/previous-icon.png" alt="previous" />
+        <img src="public/previous-icon.png" alt="previous" />
       </button> */}
       <div className="carousel-items-container">
         {IconList.map((icon) => (
@@ -19,7 +19,7 @@ function SkillCarousel() {
         ))}
       </div>
       {/* <button id="carousel-button-next" aria-label="Next">
-        <img src="src/assets/next-icon.png" alt="next" />
+        <img src="public/next-icon.png" alt="next" />
       </button> */}
     </div>
   );

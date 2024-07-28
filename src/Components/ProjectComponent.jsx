@@ -10,10 +10,10 @@ function ProjectComponent({ project }) {
       </div>
       <div className="project-buttons">
         <a href={project.live} target="_blank">
-          <img src="src/assets/external-link.png" alt="external link" />
+          <img src="public/external-link.png" alt="external link" />
         </a>
         <a href={project.github} target="_blank">
-          <img src="src/assets/github-sign.png" alt="Github link" />
+          <img src="public/github-sign.png" alt="Github link" />
         </a>
       </div>
     </div>

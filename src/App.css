@@ -43,7 +43,7 @@
 }
 
 header {
-  background-image: url('src/assets/Colorful-Pastel-Modern-Banner.png');
+  background-image: url('public/Colorful-Pastel-Modern-Banner.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -270,7 +270,7 @@ header p {
   }
 
   header {
-    background-image: url('src/assets/cropped-banner.png');
+    background-image: url('public/cropped-banner.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
