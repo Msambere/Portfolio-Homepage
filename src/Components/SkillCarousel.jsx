@@ -12,6 +12,11 @@ function SkillCarousel() {
             <img src={icon.src} alt={icon.alt} />
           </div>
         ))}
+        {IconList.map((icon) => (
+          <div key={icon.id} className="carousel-item">
+            <img src={icon.src} alt={icon.alt} />
+          </div>
+        ))}
       </div>
       {/* <button id="carousel-button-next" aria-label="Next">
         <img src="src/assets/next-icon.png" alt="next" />

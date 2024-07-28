@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 #root {
+  font-family: 'LXGW WenKai Mono TC', monospace;
+  font-weight: 400;
+  font-style: normal;
+
   max-width: 1280px;
   margin: 0px;
   padding: 2rem;
@@ -24,10 +30,16 @@
 }
 
 .section {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
   border-radius: 20px;
+}
+
+.section h1 {
+  font-family: 'Courgette', cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -42,6 +54,10 @@ header {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: ' image name' 'image tagline';
+}
+
+header h1 {
+  font-size: 2.75rem;
 }
 
 #selfie {
@@ -77,12 +93,37 @@ header p {
   margin: 0px;
 }
 
-.carousel-items-container {
+.carousel {
+  overflow: hidden;
+  position: relative;
+  box-shadow: none;
+  height: 175px;
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 10px;
+}
+
+.carousel-items-container {
+  display: flex;
+  position: absolute;
+  left: 0;
+  gap: 5%;
+  width: 200%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  animation: slide 35s linear infinite;
+}
+
+/* .carousel-items-container:hover {
+  animation-play-state: paused;
+} */
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
 }
 
 .carousel-item {
@@ -225,6 +266,7 @@ header p {
   }
   .section {
     width: 90%;
+    margin-bottom: 1rem;
   }
 
   header {
@@ -243,12 +285,26 @@ header p {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
 
-  .carousel-item {
-    width: fit-content;
+  .carousel {
+    overflow: hidden;
+    position: relative;
+    height: 70px;
+    width: 95%;
+    box-shadow: none;
+    border-radius: 0px;
   }
+
+  .carousel-items-container {
+    gap: 8%;
+    width: 200%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
   .carousel-item img {
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
   }
 
   .about-me-section {
