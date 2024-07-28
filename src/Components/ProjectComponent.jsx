@@ -6,7 +6,7 @@ function ProjectComponent({ project }) {
       <div className="project-details">
         <p className="description">{project.description}</p>
         <p className="label">Environment: </p>
-        <p className="tools">{project.tools}</p>
+        <p className="tools">{project.tools.join(' / ')}</p>
       </div>
       <div className="project-buttons">
         <a href={project.live} target="_blank">

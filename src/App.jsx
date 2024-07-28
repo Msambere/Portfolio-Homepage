@@ -11,8 +11,8 @@ function App() {
     <div className="app-container">
       <HeaderSection />
       <SkillCarousel />
-      <AboutMeSection />
       <MyWorkSection />
+      <AboutMeSection />
       <ContactSection />
       <FooterSection />
     </div>

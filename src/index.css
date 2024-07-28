@@ -8,9 +8,9 @@
   justify-content: center;
 
   background-color: var(--main-bgc);
-  background-image: url('src/assets/Colorful-Pastel-Modern-Banner.png');
+  /* background-image: url('src/assets/Colorful-Pastel-Modern-Banner.png');
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top left; */
 
   --main-bgc: #f6f4efff;
   --l-tan: #ebdac4ff;
@@ -28,10 +28,10 @@
   margin: 0px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   :root {
     background-image: url('src/assets/cropped-banner.png');
     background-size: contain;
     background-repeat: no-repeat;
   }
-}
+} */

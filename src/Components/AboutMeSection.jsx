@@ -6,23 +6,20 @@ function AboutMeSection() {
       </div>
       <div className="content">
         <p>
-          Hello! I am Amber Edwards, a software engineer experienced with website creation and
-          maintenance. I am passionate about using software to improve the lives of the global
-          community, especially our most vulnerable members. With a keen mind for using logical and
-          code to solve a variety of problems, I code solutions that provide a breadth
-          functionality.
+          I am passionate about using software to improve the lives of the global community,
+          especially our most vulnerable members. With a keen mind for using logic and code to solve
+          a variety of problems, I code solutions that provide a breadth functionality.
         </p>
         <p>
-          As a former ESL educator turned tech junkie, my journey began with a desire to make
-          programs that helped teachers make engaging class materials quickly and easily. Over the
-          years, I have explored several fields in the tech industry, including web development,
-          data analytics, and cybersecurity.
+          As a former educator, my journey began with a desire to make programs that helped teachers
+          make engaging class materials quickly and easily. Over the years, I have explored several
+          fields in the tech industry, including web development, data analytics, and cybersecurity.
         </p>
         <p>When I'm not at my desk, you can find me on my yoga mat or hiking a park trail.</p>
         <ul>
           <li>3 time Fulbright grant recipient</li>
           <li>
-            Awarded Native Speaking English Teacher of the Year by Seoul Metropolitan Office of
+            Awarded 2018 Native Speaking English Teacher of the Year by Seoul Metropolitan Office of
             Education
           </li>
           <li>Member of the SANS Cyber Immersion Academy Summer 2024 cohort</li>
