@@ -343,11 +343,15 @@ header p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
-  header h1 {
+  header h1,
+  header .tagline {
     align-self: center;
+    justify-self: center;
+  }
+  header h4 {
+    text-align: center;
   }
 
   #selfie {
