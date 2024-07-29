@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="app-container">
       <HeaderSection />
+      <AboutMeSection />
       <SkillCarousel />
       <MyWorkSection />
-      <AboutMeSection />
       <ContactSection />
       <FooterSection />
     </div>

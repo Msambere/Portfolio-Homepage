@@ -36,6 +36,12 @@
   border-radius: 20px;
 }
 
+.carousel {
+  box-shadow: none;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+
 .section h1 {
   font-family: 'Courgette', cursive;
   font-weight: 400;
@@ -93,7 +99,7 @@ header p {
   margin: 0px;
 }
 
-.carousel {
+.carousel-track {
   overflow: hidden;
   position: relative;
   box-shadow: none;
@@ -331,7 +337,7 @@ header p {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   }
 
-  .carousel {
+  .carousel-track {
     overflow: hidden;
     position: relative;
     height: 70px;
@@ -346,6 +352,7 @@ header p {
     height: 80%;
     justify-content: center;
     align-items: center;
+    animation: slide 15s linear infinite;
   }
 
   .carousel-item img {
