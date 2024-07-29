@@ -240,8 +240,13 @@ header p {
   justify-content: space-evenly;
 }
 
-.contact-section {
+.contact-container {
   background-color: var(--d-tan);
+}
+
+.contact-section {
+  background-color: var(--l-tan);
+  margin-bottom: 0px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 2%;
@@ -262,20 +267,27 @@ header p {
   align-items: center;
 }
 
+.contact-leftside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #selfie2 {
   height: 200px;
   width: auto;
   border-radius: 20px;
 }
 
-.contact-section .content {
+.contact-rightside {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .phone-info,
-.email-info {
+.email-info,
+.contact-rightside p {
   width: fit-content;
   display: flex;
   flex-direction: row;
@@ -297,7 +309,7 @@ header p {
 .socials {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .socials img {
@@ -401,6 +413,7 @@ header p {
   .contact-section {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
   }
 }
 
