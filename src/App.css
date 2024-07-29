@@ -242,6 +242,11 @@ header p {
 
 .contact-container {
   background-color: var(--d-tan);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-section {
@@ -349,6 +354,7 @@ header p {
   header .tagline {
     align-self: center;
     justify-self: center;
+    text-align: center;
   }
   header h4 {
     text-align: center;
