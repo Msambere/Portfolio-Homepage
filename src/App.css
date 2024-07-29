@@ -242,16 +242,62 @@ header p {
 }
 
 .contact-section .section-label {
-  height: 80%;
-  width: 90%;
+  height: fit-content;
+  width: fit-content;
   justify-self: center;
   align-self: center;
   background-color: var(--l-tan);
   border-radius: 0 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1.5rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+#selfie2 {
+  height: 200px;
+  width: auto;
+  border-radius: 20px;
+}
+
+.contact-section .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.phone-info,
+.email-info {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.phone-info p,
+.email-info p {
+  margin-bottom: 0;
+}
+
+.phone-info img,
+.email-info img {
+  height: 1rem;
+  width: 1rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.socials img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 2rem;
 }
 
 @media (max-width: 600px) {
@@ -339,6 +385,10 @@ header p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .project-card:hover {
+    scale: none;
+    z-index: 2;
   }
 
   .contact-section {
