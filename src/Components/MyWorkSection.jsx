@@ -7,7 +7,7 @@ function MyWorkSection() {
       <h1>My Work</h1>
       <div className="all-projects-container">
         {ProjectList.map((project) => (
-          <ProjectComponent project={project} />
+          <ProjectComponent key={project.id} project={project} />
         ))}
       </div>
     </div>

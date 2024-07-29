@@ -1,6 +1,6 @@
 function ProjectComponent({ project }) {
   return (
-    <div className="project-card" key={project.id}>
+    <div className="project-card">
       <img className="project-image" src={project.img} alt={project.alt} />
       <h3 className="project-title">{project.name}</h3>
       <div className="project-details">
@@ -10,10 +10,10 @@ function ProjectComponent({ project }) {
       </div>
       <div className="project-buttons">
         <a href={project.live} target="_blank">
-          <img src="public/external-link.png" alt="external link" />
+          <img src="/external-link.png" alt="external link" />
         </a>
         <a href={project.github} target="_blank">
-          <img src="public/github-sign.png" alt="Github link" />
+          <img src="/github-sign.png" alt="Github link" />
         </a>
       </div>
     </div>
