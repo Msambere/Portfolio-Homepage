@@ -343,6 +343,11 @@ header p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+
+  header h1 {
+    align-self: center;
   }
 
   #selfie {
