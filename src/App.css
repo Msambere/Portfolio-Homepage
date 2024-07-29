@@ -318,7 +318,7 @@ header p {
   margin-right: 2rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #root {
     padding: 1rem 0;
   }
