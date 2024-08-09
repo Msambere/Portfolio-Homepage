@@ -9,7 +9,7 @@ const ProjectList = [
     alt: 'Memory Game screenshot',
     description: 'Test your memory with this pokemon themed game',
     tools: ['Html', 'CSS', 'Javascript', 'React', 'API'],
-    live: 'msambere-memory-game.netlify.app',
+    live: 'https://msambere-memory-game.netlify.app',
     github: 'https://github.com/Msambere/Memory-Card-Game'
   },
   {

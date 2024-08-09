@@ -209,11 +209,11 @@ header p {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas:
     'description description'
     'label tools';
-  gap: 3%;
+  gap: 5%;
 }
 .description {
   padding: 2%;
