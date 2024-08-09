@@ -3,6 +3,17 @@ import { v4 as uuid4 } from 'uuid';
 const ProjectList = [
   {
     id: uuid4(),
+    name: 'Memory Game',
+    subtitle: 'React-based game',
+    img: '/Projects/MemoryGame.png',
+    alt: 'Memory Game screenshot',
+    description: 'Test your memory with this pokemon themed game',
+    tools: ['Html', 'CSS', 'Javascript', 'React', 'API'],
+    live: 'msambere-memory-game.netlify.app',
+    github: 'https://github.com/Msambere/Memory-Card-Game'
+  },
+  {
+    id: uuid4(),
     name: 'Check It',
     subtitle: 'To-do list tracker',
     img: '/Projects/CheckIt.png',
