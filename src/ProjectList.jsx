@@ -3,6 +3,17 @@ import { v4 as uuid4 } from 'uuid';
 const ProjectList = [
   {
     id: uuid4(),
+    name: 'It$apos;s a Mood',
+    subtitle: 'Fullstack Digital Mood Board',
+    img: '',
+    alt: 'Mood Board App screenshot',
+    description: 'Inspire yourself by creating themed mood boards',
+    tools: ['Html', 'CSS', 'Javascript', 'React', 'RestfulAPI', 'Flask', 'Python', 'PostgreSQL', 'SqlAlchemy', 'Render'],
+    live: '',
+    github: ''
+  },
+  {
+    id: uuid4(),
     name: 'Memory Game',
     subtitle: 'React-based game',
     img: '/Projects/MemoryGame.png',
