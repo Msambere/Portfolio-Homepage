@@ -47,3 +47,31 @@ header p {
   width: fit-content;
   margin: 0px;
 }
+
+@media (max-width: 900px) {
+  header {
+    background-image: url('/cropped-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1,
+  header .tagline {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+  header h4 {
+    text-align: center;
+  }
+
+  #selfie {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+}

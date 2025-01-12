@@ -1,0 +1,32 @@
+.about-me-section {
+  /* border: 3px solid var(--d-green); */
+  background-color: var(--d-green);
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about-me-section .section-label {
+  height: fit-content;
+  justify-self: center;
+  align-self: center;
+}
+
+.about-me-section .content {
+  background-color: var(--l-green);
+  border-radius: 20px 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 2%;
+}
+
+.content p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+    .about-me-section {
+    display: flex;
+    flex-direction: column;
+  }
+}

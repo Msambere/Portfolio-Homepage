@@ -14,3 +14,39 @@
   grid-auto-rows: auto;
   gap: 3%;
 }
+
+@media (max-width: 900px) {
+  .all-projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 90%;
+    margin-bottom: 2vh;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-image {
+    width: 90%;
+    height: auto;
+  }
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .project-card:hover {
+    scale: none;
+    z-index: 2;
+  }
+}

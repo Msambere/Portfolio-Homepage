@@ -1,3 +1,5 @@
+import './AboutMeSection.css';
+
 function AboutMeSection() {
   return (
     <div className="section about-me-section">
