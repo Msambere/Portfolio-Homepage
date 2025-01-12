@@ -48,56 +48,7 @@
   font-style: normal;
 }
 
-header {
-  background-image: url('/Colorful-Pastel-Modern-Banner.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 20px;
-  padding: 15px;
-
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: ' image name' 'image tagline';
-}
-
-header h1 {
-  font-size: 2.75rem;
-}
-
-#selfie {
-  grid-area: image;
-  justify-self: center;
-  height: 300px;
-  border-radius: 50% 0;
-  box-shadow:
-    rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px,
-    rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px,
-    rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-}
-
-header h1 {
-  grid-area: name;
-  align-self: flex-end;
-  justify-self: center;
-}
-
-header .tagline {
-  grid-area: tagline;
-  align-self: flex-start;
-  justify-self: center;
-}
-header h1,
-header div,
-header p {
-  height: fit-content;
-  width: fit-content;
-  margin: 0px;
-}
+h
 
 .carousel-track {
   overflow: hidden;
@@ -167,78 +118,7 @@ header p {
   margin-bottom: 1rem;
 }
 
-.project-section {
-  background-color: var(--d-rose);
-  padding-bottom: 5%;
-}
 
-.project-section h1 {
-  margin-bottom: 2%;
-}
-
-.all-projects-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: auto;
-  gap: 3%;
-}
-
-.project-card {
-  background-color: var(--l-rose);
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding: 2%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.project-card:hover {
-  scale: 1.1;
-  z-index: 2;
-}
-
-.project-image {
-  border-radius: 8px;
-  width: 90%;
-  height: auto;
-  margin-bottom: 5%;
-}
-.project-details {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas:
-    'description description'
-    'label tools';
-  gap: 5%;
-}
-.description {
-  padding: 2%;
-  grid-area: description;
-}
-
-.label {
-  font-weight: bold;
-  font-style: italic;
-  padding-left: 2%;
-  grid-area: label;
-}
-.tools {
-  font-style: italic;
-  padding-right: 2%;
-  grid-area: tools;
-}
-
-.project-buttons {
-  align-self: flex-end;
-  width: 30%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
 
 .contact-container {
   background-color: var(--d-tan);

@@ -1,8 +1,11 @@
+import './ProjectComponent.css';
+
 function ProjectComponent({ project }) {
   return (
     <div className="project-card">
       <img className="project-image" src={project.img} alt={project.alt} />
       <h3 className="project-title">{project.name}</h3>
+      <h4>{project.subtitle}</h4>
       <div className="project-details">
         <p className="description">{project.description}</p>
         <p className="label">Environment: </p>

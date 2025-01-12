@@ -1,5 +1,6 @@
 import ProjectComponent from './ProjectComponent';
 import { ProjectList } from '../ProjectList';
+import './MyWorkSection.css'
 
 function MyWorkSection() {
   return (

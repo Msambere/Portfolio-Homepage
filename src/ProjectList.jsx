@@ -3,13 +3,13 @@ import { v4 as uuid4 } from 'uuid';
 const ProjectList = [
   {
     id: uuid4(),
-    name: 'It$apos;s a Mood',
+    name: 'It\'s a Mood',
     subtitle: 'Fullstack Digital Mood Board',
-    img: '',
+    img: '/Projects/Screenshot 2025-01-12 at 2.30.29 PM.png',
     alt: 'Mood Board App screenshot',
     description: 'Inspire yourself by creating themed mood boards',
     tools: ['Html', 'CSS', 'Javascript', 'React', 'RestfulAPI', 'Flask', 'Python', 'PostgreSQL', 'SqlAlchemy', 'Render'],
-    live: '',
+    live: 'https://its-a-mood-ea3t.onrender.com/',
     github: ''
   },
   {
