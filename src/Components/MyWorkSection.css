@@ -1,7 +1,8 @@
 .project-section {
   background-color: var(--d-rose);
-  padding-bottom: 5%;
-  height: fit-content;
+  height: 1350px;
+  /* padding-bottom: 5%; */
+  /* height: min-content; */
 }
 
 .project-section h1 {
@@ -16,6 +17,9 @@
 }
 
 @media (max-width: 900px) {
+  .project-section{
+    height: auto;
+  }
   .all-projects-container {
     display: flex;
     flex-direction: column;
