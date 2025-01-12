@@ -2,9 +2,9 @@ import './App.css';
 import HeaderSection from './Components/HeaderSection';
 import AboutMeSection from './Components/AboutMeSection';
 import MyWorkSection from './Components/MyWorkSection';
-import ContactSection from './Components/Contact Section';
+import ContactSection from './Components/ContactSection';
 import SkillCarousel from './Components/SkillCarousel';
-import FooterSection from './FooterSection';
+import FooterSection from './Components/FooterSection';
 
 function App() {
   return (
